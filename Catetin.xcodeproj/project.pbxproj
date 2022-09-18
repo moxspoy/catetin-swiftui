@@ -14,6 +14,8 @@
 		2450513028D5B2B200F79815 /* CatetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450512F28D5B2B200F79815 /* CatetinTests.swift */; };
 		2450513A28D5B2B200F79815 /* CatetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513928D5B2B200F79815 /* CatetinUITests.swift */; };
 		2450513C28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */; };
+		248FE08D28D72ADD00578D61 /* InputAmountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FE08C28D72ADD00578D61 /* InputAmountPage.swift */; };
+		248FE09028D72C6C00578D61 /* AppInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FE08F28D72C6C00578D61 /* AppInfoModel.swift */; };
 		24D1FAB228D5F5DD0010383F /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1FAB128D5F5DD0010383F /* ColorHelper.swift */; };
 		24E797B228D6DF6A00E33603 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B128D6DF6A00E33603 /* Transaction.swift */; };
 		24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */; };
@@ -55,6 +57,8 @@
 		2450513528D5B2B200F79815 /* CatetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2450513928D5B2B200F79815 /* CatetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITests.swift; sourceTree = "<group>"; };
 		2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		248FE08C28D72ADD00578D61 /* InputAmountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountPage.swift; sourceTree = "<group>"; };
+		248FE08F28D72C6C00578D61 /* AppInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoModel.swift; sourceTree = "<group>"; };
 		24D1FAB128D5F5DD0010383F /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		24E797B128D6DF6A00E33603 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountContinueButtonExtension.swift; sourceTree = "<group>"; };
@@ -154,6 +158,21 @@
 			path = CatetinUITests;
 			sourceTree = "<group>";
 		};
+		248FE08B28D72AC100578D61 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		248FE08E28D72C5000578D61 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				248FE08F28D72C6C00578D61 /* AppInfoModel.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
 		24D1FAB028D5F5C10010383F /* helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +200,7 @@
 		24E797B628D6EBC200E33603 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				248FE08B28D72AC100578D61 /* pages */,
 				24E797C328D6ECC500E33603 /* common */,
 				24E797B728D6EBCE00E33603 /* inputAmountPage */,
 			);
@@ -190,6 +210,7 @@
 		24E797B728D6EBCE00E33603 /* inputAmountPage */ = {
 			isa = PBXGroup;
 			children = (
+				248FE08C28D72ADD00578D61 /* InputAmountPage.swift */,
 				24E797B828D6EBF300E33603 /* InputAmountSection.swift */,
 				24E797BA28D6EC2900E33603 /* ErrorMessage.swift */,
 				24E797BF28D6EC7800E33603 /* Avatar.swift */,
@@ -202,6 +223,7 @@
 		24E797BC28D6EC4600E33603 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				248FE08E28D72C5000578D61 /* api */,
 				24E797BD28D6EC5A00E33603 /* AccountModel.swift */,
 			);
 			path = models;
@@ -345,6 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248FE08D28D72ADD00578D61 /* InputAmountPage.swift in Sources */,
+				248FE09028D72C6C00578D61 /* AppInfoModel.swift in Sources */,
 				2450512028D5B2B100F79815 /* ContentView.swift in Sources */,
 				24E797BB28D6EC2900E33603 /* ErrorMessage.swift in Sources */,
 				24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */,
