@@ -8,11 +8,11 @@
 // This file was generated from JSON Schema using codebeautify, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
-//   let welcome4 = try Welcome4(json)
+//   let appInfoModel = try AppInfoModel(json)
 
 import Foundation
 
-// MARK: - Welcome4
+// MARK: - AppInfoModel
 struct AppInfoModel {
     let maintenance, version: String
     let operatingTime: OperatingTimeModel
@@ -21,31 +21,31 @@ struct AppInfoModel {
     let remoteConfigFetchIntervalInMinutes: Int
 }
 
-// MARK: - Welcome4Gangguan
+// MARK: - DisturbanceModel
 struct DisturbanceModel {
-    let dataStatus: DataStatus
-    let dataModal: DataModal
+    let dataStatus: DataStatusModel
+    let dataModal: DataModalModel
     let lastUpdate: String
 }
 
-// MARK: - DataModal
-struct DataModal {
+// MARK: - DataModalModel
+struct DataModalModel {
     let normal: [Any?]
     let gangguan, gangguanPlus: DisturbanceContentModel
 }
 
-// MARK: - GangguanPlusClass
+// MARK: - DisturbanceContentModel
 struct DisturbanceContentModel {
     let content, subcontent: String
 }
 
-// MARK: - DataStatus
-struct DataStatus {
+// MARK: - DataStatusModel
+struct DataStatusModel {
     let pending: SenderBankDisturbanceModel
     let siap: BeneficiaryBankDisturbanceModel
 }
 
-// MARK: - Pending
+// MARK: - SenderBankDisturbanceModel
 struct SenderBankDisturbanceModel {
     let mandiri, bri: String
     let bni: Int
@@ -57,7 +57,7 @@ struct SenderBankDisturbanceModel {
     let cimbVa, mandiriVa: Int
 }
 
-// MARK: - Siap
+// MARK: - BeneficiaryBankDisturbanceModel
 struct BeneficiaryBankDisturbanceModel {
     let mandiri, bri, bni, bca: String
     let bsm, cimb: Int
@@ -97,7 +97,7 @@ struct BeneficiaryBankDisturbanceModel {
     let muamalatVa, danamonVa: Int
 }
 
-// MARK: - OperatingTime
+// MARK: - OperatingTimeModel
 struct OperatingTimeModel {
     let weekday, weekend, label: String
 }
