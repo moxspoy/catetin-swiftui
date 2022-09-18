@@ -14,6 +14,16 @@
 		2450513028D5B2B200F79815 /* CatetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450512F28D5B2B200F79815 /* CatetinTests.swift */; };
 		2450513A28D5B2B200F79815 /* CatetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513928D5B2B200F79815 /* CatetinUITests.swift */; };
 		2450513C28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */; };
+		24D1FAB228D5F5DD0010383F /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1FAB128D5F5DD0010383F /* ColorHelper.swift */; };
+		24E797B228D6DF6A00E33603 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B128D6DF6A00E33603 /* Transaction.swift */; };
+		24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */; };
+		24E797B928D6EBF300E33603 /* InputAmountSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B828D6EBF300E33603 /* InputAmountSection.swift */; };
+		24E797BB28D6EC2900E33603 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797BA28D6EC2900E33603 /* ErrorMessage.swift */; };
+		24E797BE28D6EC5A00E33603 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797BD28D6EC5A00E33603 /* AccountModel.swift */; };
+		24E797C028D6EC7800E33603 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797BF28D6EC7800E33603 /* Avatar.swift */; };
+		24E797C228D6EC8B00E33603 /* AccountCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C128D6EC8B00E33603 /* AccountCard.swift */; };
+		24E797C528D6ECD500E33603 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C428D6ECD500E33603 /* NavigationBar.swift */; };
+		24E797C728D6ED0A00E33603 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C628D6ED0A00E33603 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		2450513528D5B2B200F79815 /* CatetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2450513928D5B2B200F79815 /* CatetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITests.swift; sourceTree = "<group>"; };
 		2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24D1FAB128D5F5DD0010383F /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		24E797B128D6DF6A00E33603 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountContinueButtonExtension.swift; sourceTree = "<group>"; };
+		24E797B828D6EBF300E33603 /* InputAmountSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountSection.swift; sourceTree = "<group>"; };
+		24E797BA28D6EC2900E33603 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		24E797BD28D6EC5A00E33603 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		24E797BF28D6EC7800E33603 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		24E797C128D6EC8B00E33603 /* AccountCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCard.swift; sourceTree = "<group>"; };
+		24E797C428D6ECD500E33603 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		24E797C628D6ED0A00E33603 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,11 @@
 		2450511C28D5B2B100F79815 /* Catetin */ = {
 			isa = PBXGroup;
 			children = (
+				24E797BC28D6EC4600E33603 /* models */,
+				24E797B628D6EBC200E33603 /* views */,
+				24E797B328D6DFB000E33603 /* extensions */,
+				24E797B028D6DF4600E33603 /* constants */,
+				24D1FAB028D5F5C10010383F /* helper */,
 				2450511D28D5B2B100F79815 /* CatetinApp.swift */,
 				2450511F28D5B2B100F79815 /* ContentView.swift */,
 				2450512128D5B2B200F79815 /* Assets.xcassets */,
@@ -127,6 +152,67 @@
 				2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */,
 			);
 			path = CatetinUITests;
+			sourceTree = "<group>";
+		};
+		24D1FAB028D5F5C10010383F /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				24D1FAB128D5F5DD0010383F /* ColorHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		24E797B028D6DF4600E33603 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				24E797B128D6DF6A00E33603 /* Transaction.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		24E797B328D6DFB000E33603 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		24E797B628D6EBC200E33603 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24E797C328D6ECC500E33603 /* common */,
+				24E797B728D6EBCE00E33603 /* inputAmountPage */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		24E797B728D6EBCE00E33603 /* inputAmountPage */ = {
+			isa = PBXGroup;
+			children = (
+				24E797B828D6EBF300E33603 /* InputAmountSection.swift */,
+				24E797BA28D6EC2900E33603 /* ErrorMessage.swift */,
+				24E797BF28D6EC7800E33603 /* Avatar.swift */,
+				24E797C128D6EC8B00E33603 /* AccountCard.swift */,
+				24E797C628D6ED0A00E33603 /* Button.swift */,
+			);
+			path = inputAmountPage;
+			sourceTree = "<group>";
+		};
+		24E797BC28D6EC4600E33603 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24E797BD28D6EC5A00E33603 /* AccountModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		24E797C328D6ECC500E33603 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				24E797C428D6ECD500E33603 /* NavigationBar.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +346,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2450512028D5B2B100F79815 /* ContentView.swift in Sources */,
+				24E797BB28D6EC2900E33603 /* ErrorMessage.swift in Sources */,
+				24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */,
+				24E797C028D6EC7800E33603 /* Avatar.swift in Sources */,
+				24E797BE28D6EC5A00E33603 /* AccountModel.swift in Sources */,
+				24E797C528D6ECD500E33603 /* NavigationBar.swift in Sources */,
+				24D1FAB228D5F5DD0010383F /* ColorHelper.swift in Sources */,
+				24E797C728D6ED0A00E33603 /* Button.swift in Sources */,
+				24E797B228D6DF6A00E33603 /* Transaction.swift in Sources */,
+				24E797C228D6EC8B00E33603 /* AccountCard.swift in Sources */,
+				24E797B928D6EBF300E33603 /* InputAmountSection.swift in Sources */,
 				2450511E28D5B2B100F79815 /* CatetinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
