@@ -11,6 +11,7 @@ import SwiftUI
 struct InputAmountPage: View {
     @State public var amount: Int = 0
     @State public var errorMessage: String = ""
+    @StateObject var viewModel: NavigationViewModel
     
     var body: some View {
         VStack(alignment: .leading) {

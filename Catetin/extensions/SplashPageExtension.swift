@@ -8,11 +8,12 @@
 import Foundation
 
 extension SplashPage {
-    func requestGetAppInfo() {
+    func requestGetAppInfo(completionHandler:@escaping (AppInfoModel) -> Void) {
         requestAPIV1(url: Endpoints().APP_INFO).responseDecodable(of: AppInfoModel.self) { response in
             switch response.result {
             case .success(let appInfo):
                 print(appInfo.customerFriendPhoneNumber)
+                completionHandler(appInfo)
             case .failure(let error):
                 self.errorMessage = error.localizedDescription
             }
