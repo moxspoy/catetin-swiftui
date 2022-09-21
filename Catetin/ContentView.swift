@@ -8,25 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State public var amount: Int = 0
-    @State public var errorMessage: String = ""
+    
+    @StateObject var viewModel: NavigationViewModel
     
     var body: some View {
-        VStack(alignment: .leading) {
-            NavigationBar(title: "Masukkan Jumlah Transfer")
-            ScrollView {
-                AccountCard(account: AccountModel(id: 10, bank: "bca", bankCode: "bca", accountNumber: "9728897288", name: "M Nurilman Baehaqi", accountHolder: "M Nurilman Baehaqi", accountType: "bank_account", status: "SUCCESS"))
-                InputAmountSection(amount: self.$amount)
-                ErrorMessage(message: $errorMessage)
-            }
-            .background(Color("lightGrayBackground"))
-            InputAmountContinueButton(amount: $amount, errorMessage: $errorMessage)
+        NavigationStack(path: $viewModel.navigationPath) {
+            SplashPage(viewModel: viewModel)
+                .navigationDestination(for: NavigationPathEnum.self) {route in
+                    switch route {
+                    case .Splash:
+                        SplashPage(viewModel: viewModel)
+                    case .Onboarding:
+                        OnboardingPage(viewModel: viewModel)
+                    case .InputAmount:
+                        InputAmountPage(viewModel: viewModel)
+                    }
+                }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: NavigationViewModel())
     }
 }

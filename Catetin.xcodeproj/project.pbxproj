@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,17 @@
 		2450513028D5B2B200F79815 /* CatetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450512F28D5B2B200F79815 /* CatetinTests.swift */; };
 		2450513A28D5B2B200F79815 /* CatetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513928D5B2B200F79815 /* CatetinUITests.swift */; };
 		2450513C28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */; };
+		2471098F28DB73AF0009F956 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471098E28DB73AF0009F956 /* Endpoints.swift */; };
+		2471099128DB78790009F956 /* SplashPageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471099028DB78790009F956 /* SplashPageExtension.swift */; };
+		2471099428DB7ACB0009F956 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471099328DB7ACB0009F956 /* OnboardingPage.swift */; };
+		2471099728DB85AB0009F956 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471099628DB85AB0009F956 /* Navigation.swift */; };
+		2471099A28DB8E8A0009F956 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471099928DB8E8A0009F956 /* NavigationViewModel.swift */; };
+		248FE08D28D72ADD00578D61 /* InputAmountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FE08C28D72ADD00578D61 /* InputAmountPage.swift */; };
+		248FE09028D72C6C00578D61 /* AppInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FE08F28D72C6C00578D61 /* AppInfoModel.swift */; };
+		24CF005628D73C8400AF7D22 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF005528D73C8400AF7D22 /* Network.swift */; };
+		24CF005828D73F4000AF7D22 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF005728D73F4000AF7D22 /* HTTPMethod.swift */; };
+		24CF005B28D7542500AF7D22 /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF005A28D7542500AF7D22 /* SplashPage.swift */; };
+		24CF005E28D759C100AF7D22 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF005D28D759C100AF7D22 /* LottieView.swift */; };
 		24D1FAB228D5F5DD0010383F /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1FAB128D5F5DD0010383F /* ColorHelper.swift */; };
 		24E797B228D6DF6A00E33603 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B128D6DF6A00E33603 /* Transaction.swift */; };
 		24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */; };
@@ -24,6 +35,9 @@
 		24E797C228D6EC8B00E33603 /* AccountCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C128D6EC8B00E33603 /* AccountCard.swift */; };
 		24E797C528D6ECD500E33603 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C428D6ECD500E33603 /* NavigationBar.swift */; };
 		24E797C728D6ED0A00E33603 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E797C628D6ED0A00E33603 /* Button.swift */; };
+		54AE40AC8A1BF2E622BCB244 /* Pods_Catetin_CatetinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB223DE0E76F0E2407B5F865 /* Pods_Catetin_CatetinUITests.framework */; };
+		B09F6FA84E7F6057C5898BED /* Pods_Catetin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500B760A2EBE289114409F17 /* Pods_Catetin.framework */; };
+		C84A870546D5CE87CEAFC8E3 /* Pods_CatetinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABF794F99786D986D621C4E /* Pods_CatetinTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +69,17 @@
 		2450513528D5B2B200F79815 /* CatetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2450513928D5B2B200F79815 /* CatetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITests.swift; sourceTree = "<group>"; };
 		2450513B28D5B2B200F79815 /* CatetinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatetinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2471098E28DB73AF0009F956 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2471099028DB78790009F956 /* SplashPageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPageExtension.swift; sourceTree = "<group>"; };
+		2471099328DB7ACB0009F956 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		2471099628DB85AB0009F956 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		2471099928DB8E8A0009F956 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		248FE08C28D72ADD00578D61 /* InputAmountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountPage.swift; sourceTree = "<group>"; };
+		248FE08F28D72C6C00578D61 /* AppInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoModel.swift; sourceTree = "<group>"; };
+		24CF005528D73C8400AF7D22 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		24CF005728D73F4000AF7D22 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		24CF005A28D7542500AF7D22 /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
+		24CF005D28D759C100AF7D22 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		24D1FAB128D5F5DD0010383F /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		24E797B128D6DF6A00E33603 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAmountContinueButtonExtension.swift; sourceTree = "<group>"; };
@@ -65,6 +90,15 @@
 		24E797C128D6EC8B00E33603 /* AccountCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCard.swift; sourceTree = "<group>"; };
 		24E797C428D6ECD500E33603 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		24E797C628D6ED0A00E33603 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		2F92AE0D118D017A04C965A4 /* Pods-Catetin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catetin.debug.xcconfig"; path = "Target Support Files/Pods-Catetin/Pods-Catetin.debug.xcconfig"; sourceTree = "<group>"; };
+		48BF1479EC354F89040586B1 /* Pods-Catetin-CatetinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catetin-CatetinUITests.debug.xcconfig"; path = "Target Support Files/Pods-Catetin-CatetinUITests/Pods-Catetin-CatetinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		500B760A2EBE289114409F17 /* Pods_Catetin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catetin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB223DE0E76F0E2407B5F865 /* Pods_Catetin_CatetinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catetin_CatetinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC79F898F0A6489161FCD71A /* Pods-CatetinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatetinTests.debug.xcconfig"; path = "Target Support Files/Pods-CatetinTests/Pods-CatetinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A5E704D165561B19EFA738 /* Pods-CatetinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatetinTests.release.xcconfig"; path = "Target Support Files/Pods-CatetinTests/Pods-CatetinTests.release.xcconfig"; sourceTree = "<group>"; };
+		CABF794F99786D986D621C4E /* Pods_CatetinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatetinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8D1BE667E339443E4E8A5 /* Pods-Catetin-CatetinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catetin-CatetinUITests.release.xcconfig"; path = "Target Support Files/Pods-Catetin-CatetinUITests/Pods-Catetin-CatetinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F49161FD057B2234D43B178C /* Pods-Catetin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catetin.release.xcconfig"; path = "Target Support Files/Pods-Catetin/Pods-Catetin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09F6FA84E7F6057C5898BED /* Pods_Catetin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84A870546D5CE87CEAFC8E3 /* Pods_CatetinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AE40AC8A1BF2E622BCB244 /* Pods_Catetin_CatetinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +136,8 @@
 				2450512E28D5B2B200F79815 /* CatetinTests */,
 				2450513828D5B2B200F79815 /* CatetinUITests */,
 				2450511B28D5B2B100F79815 /* Products */,
+				A2A04C1E7908FAA68335D131 /* Pods */,
+				CEAB369A539CE0734271B5B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +154,9 @@
 		2450511C28D5B2B100F79815 /* Catetin */ = {
 			isa = PBXGroup;
 			children = (
+				2471099828DB8E6F0009F956 /* viewModels */,
+				2471099528DB859A0009F956 /* navigations */,
+				24CF005428D73C5500AF7D22 /* network */,
 				24E797BC28D6EC4600E33603 /* models */,
 				24E797B628D6EBC200E33603 /* views */,
 				24E797B328D6DFB000E33603 /* extensions */,
@@ -154,6 +196,74 @@
 			path = CatetinUITests;
 			sourceTree = "<group>";
 		};
+		2471099228DB7AA40009F956 /* onboardingPage */ = {
+			isa = PBXGroup;
+			children = (
+				2471099328DB7ACB0009F956 /* OnboardingPage.swift */,
+			);
+			path = onboardingPage;
+			sourceTree = "<group>";
+		};
+		2471099528DB859A0009F956 /* navigations */ = {
+			isa = PBXGroup;
+			children = (
+				2471099628DB85AB0009F956 /* Navigation.swift */,
+			);
+			path = navigations;
+			sourceTree = "<group>";
+		};
+		2471099828DB8E6F0009F956 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2471099928DB8E8A0009F956 /* NavigationViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		248FE08B28D72AC100578D61 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				2471099228DB7AA40009F956 /* onboardingPage */,
+				24E797B728D6EBCE00E33603 /* inputAmountPage */,
+				24CF005928D7540400AF7D22 /* splashPage */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		248FE08E28D72C5000578D61 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				248FE08F28D72C6C00578D61 /* AppInfoModel.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		24CF005428D73C5500AF7D22 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				24CF005528D73C8400AF7D22 /* Network.swift */,
+				24CF005728D73F4000AF7D22 /* HTTPMethod.swift */,
+				2471098E28DB73AF0009F956 /* Endpoints.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		24CF005928D7540400AF7D22 /* splashPage */ = {
+			isa = PBXGroup;
+			children = (
+				24CF005A28D7542500AF7D22 /* SplashPage.swift */,
+			);
+			path = splashPage;
+			sourceTree = "<group>";
+		};
+		24CF005C28D759B400AF7D22 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				24CF005D28D759C100AF7D22 /* LottieView.swift */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
 		24D1FAB028D5F5C10010383F /* helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				24E797B428D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift */,
+				2471099028DB78790009F956 /* SplashPageExtension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -181,8 +292,9 @@
 		24E797B628D6EBC200E33603 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				24CF005C28D759B400AF7D22 /* libraries */,
+				248FE08B28D72AC100578D61 /* pages */,
 				24E797C328D6ECC500E33603 /* common */,
-				24E797B728D6EBCE00E33603 /* inputAmountPage */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -190,6 +302,7 @@
 		24E797B728D6EBCE00E33603 /* inputAmountPage */ = {
 			isa = PBXGroup;
 			children = (
+				248FE08C28D72ADD00578D61 /* InputAmountPage.swift */,
 				24E797B828D6EBF300E33603 /* InputAmountSection.swift */,
 				24E797BA28D6EC2900E33603 /* ErrorMessage.swift */,
 				24E797BF28D6EC7800E33603 /* Avatar.swift */,
@@ -202,6 +315,7 @@
 		24E797BC28D6EC4600E33603 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				248FE08E28D72C5000578D61 /* api */,
 				24E797BD28D6EC5A00E33603 /* AccountModel.swift */,
 			);
 			path = models;
@@ -215,6 +329,29 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		A2A04C1E7908FAA68335D131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F92AE0D118D017A04C965A4 /* Pods-Catetin.debug.xcconfig */,
+				F49161FD057B2234D43B178C /* Pods-Catetin.release.xcconfig */,
+				48BF1479EC354F89040586B1 /* Pods-Catetin-CatetinUITests.debug.xcconfig */,
+				CFD8D1BE667E339443E4E8A5 /* Pods-Catetin-CatetinUITests.release.xcconfig */,
+				BC79F898F0A6489161FCD71A /* Pods-CatetinTests.debug.xcconfig */,
+				C5A5E704D165561B19EFA738 /* Pods-CatetinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEAB369A539CE0734271B5B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500B760A2EBE289114409F17 /* Pods_Catetin.framework */,
+				BB223DE0E76F0E2407B5F865 /* Pods_Catetin_CatetinUITests.framework */,
+				CABF794F99786D986D621C4E /* Pods_CatetinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2450513F28D5B2B200F79815 /* Build configuration list for PBXNativeTarget "Catetin" */;
 			buildPhases = (
+				37F50373713A1E87EB7FF497 /* [CP] Check Pods Manifest.lock */,
 				2450511628D5B2B100F79815 /* Sources */,
 				2450511728D5B2B100F79815 /* Frameworks */,
 				2450511828D5B2B100F79815 /* Resources */,
+				5C1BED1BB56C5C4CF7184D54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2450514228D5B2B200F79815 /* Build configuration list for PBXNativeTarget "CatetinTests" */;
 			buildPhases = (
+				C2B6E08AC8888AA69DF046CB /* [CP] Check Pods Manifest.lock */,
 				2450512728D5B2B200F79815 /* Sources */,
 				2450512828D5B2B200F79815 /* Frameworks */,
 				2450512928D5B2B200F79815 /* Resources */,
@@ -257,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2450514528D5B2B200F79815 /* Build configuration list for PBXNativeTarget "CatetinUITests" */;
 			buildPhases = (
+				D328BF93DEBBEBFD5ADB34EB /* [CP] Check Pods Manifest.lock */,
 				2450513128D5B2B200F79815 /* Sources */,
 				2450513228D5B2B200F79815 /* Frameworks */,
 				2450513328D5B2B200F79815 /* Resources */,
+				8251ADCB349CC4D7E1EB4A07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +437,7 @@
 				};
 			};
 			buildConfigurationList = 2450511528D5B2B100F79815 /* Build configuration list for PBXProject "Catetin" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -340,20 +482,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37F50373713A1E87EB7FF497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catetin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1BED1BB56C5C4CF7184D54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catetin/Pods-Catetin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catetin/Pods-Catetin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catetin/Pods-Catetin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8251ADCB349CC4D7E1EB4A07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catetin-CatetinUITests/Pods-Catetin-CatetinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catetin-CatetinUITests/Pods-Catetin-CatetinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catetin-CatetinUITests/Pods-Catetin-CatetinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B6E08AC8888AA69DF046CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatetinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D328BF93DEBBEBFD5ADB34EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catetin-CatetinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2450511628D5B2B100F79815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248FE08D28D72ADD00578D61 /* InputAmountPage.swift in Sources */,
+				248FE09028D72C6C00578D61 /* AppInfoModel.swift in Sources */,
 				2450512028D5B2B100F79815 /* ContentView.swift in Sources */,
+				2471099728DB85AB0009F956 /* Navigation.swift in Sources */,
 				24E797BB28D6EC2900E33603 /* ErrorMessage.swift in Sources */,
 				24E797B528D6DFBF00E33603 /* InputAmountContinueButtonExtension.swift in Sources */,
+				2471099428DB7ACB0009F956 /* OnboardingPage.swift in Sources */,
+				2471099A28DB8E8A0009F956 /* NavigationViewModel.swift in Sources */,
+				24CF005628D73C8400AF7D22 /* Network.swift in Sources */,
 				24E797C028D6EC7800E33603 /* Avatar.swift in Sources */,
 				24E797BE28D6EC5A00E33603 /* AccountModel.swift in Sources */,
+				24CF005B28D7542500AF7D22 /* SplashPage.swift in Sources */,
 				24E797C528D6ECD500E33603 /* NavigationBar.swift in Sources */,
 				24D1FAB228D5F5DD0010383F /* ColorHelper.swift in Sources */,
+				24CF005E28D759C100AF7D22 /* LottieView.swift in Sources */,
 				24E797C728D6ED0A00E33603 /* Button.swift in Sources */,
+				2471099128DB78790009F956 /* SplashPageExtension.swift in Sources */,
+				2471098F28DB73AF0009F956 /* Endpoints.swift in Sources */,
 				24E797B228D6DF6A00E33603 /* Transaction.swift in Sources */,
+				24CF005828D73F4000AF7D22 /* HTTPMethod.swift in Sources */,
 				24E797C228D6EC8B00E33603 /* AccountCard.swift in Sources */,
 				24E797B928D6EBF300E33603 /* InputAmountSection.swift in Sources */,
 				2450511E28D5B2B100F79815 /* CatetinApp.swift in Sources */,
@@ -443,6 +699,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -495,6 +753,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -504,6 +764,7 @@
 		};
 		2450514028D5B2B200F79815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F92AE0D118D017A04C965A4 /* Pods-Catetin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,6 +774,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Catetin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -540,6 +802,7 @@
 		};
 		2450514128D5B2B200F79815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49161FD057B2234D43B178C /* Pods-Catetin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -549,6 +812,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Catetin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -576,6 +840,7 @@
 		};
 		2450514328D5B2B200F79815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC79F898F0A6489161FCD71A /* Pods-CatetinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +863,7 @@
 		};
 		2450514428D5B2B200F79815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A5E704D165561B19EFA738 /* Pods-CatetinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -620,6 +886,7 @@
 		};
 		2450514628D5B2B200F79815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BF1479EC354F89040586B1 /* Pods-Catetin-CatetinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -641,6 +908,7 @@
 		};
 		2450514728D5B2B200F79815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD8D1BE667E339443E4E8A5 /* Pods-Catetin-CatetinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
